@@ -68,7 +68,6 @@ class MainClass : BuildAndRunTemplate
   /// Entry point of CUI code
   /// </remarks>
   //--------------------------------------------------		
-  [STAThread]
   public override void startCUI()
   {
     System.Console.WriteLine("start sample");
